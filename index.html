@@ -14,36 +14,36 @@
 		<link rel="stylesheet" href="./css/normalize.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 
-		<title>Venom 2 - Promo</title>
+		<title>Веном2 - Промостраница</title>
 	</head>
 	<body>
-		<div class="container">
-			<header class="header">
-				<a href="/" class="logo-link">
-					<img class="logo-img" src="./svg/logo.svg" alt="Logo: venom" />
-				</a>
-				<!-- /.logo-link -->
-				<nav class="nav">
-					<ul class="nav-menu">
-						<li class="nav-menu-item">
-							<a href="about.html" class="nav-menu-link">о фильме</a>
-						</li>
-						<li class="nav-menu-item">
-							<a href="trailer.html" class="nav-menu-link">трейлер</a>
-						</li>
-						<li class="nav-menu-item">
-							<a href="actors.html" class="nav-menu-link">актеры</a>
-						</li>
-						<li class="nav-menu-item">
-							<a href="premiere.html" class="nav-menu-link">премьера</a>
-						</li>
-					</ul>
-					<!-- /.nav-menu -->
-				</nav>
-				<!-- /.nav -->
-			</header>
-			<!-- /.header -->
-			<section class="section hero">
+		<header class="header container">
+			<a href="/" class="logo-link">
+				<img class="logo-img" src="./svg/logo.svg" alt="Logo: venom" />
+			</a>
+			<!-- /.logo-link -->
+			<nav class="nav">
+				<ul class="nav-menu">
+					<li class="nav-menu-item">
+						<a href="about.html" class="nav-menu-link">о фильме</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="trailer.html" class="nav-menu-link">трейлер</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="actors.html" class="nav-menu-link">актеры</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="premiere.html" class="nav-menu-link">премьера</a>
+					</li>
+				</ul>
+				<!-- /.nav-menu -->
+			</nav>
+			<!-- /.nav -->
+		</header>
+		<!-- /.header container -->
+		<section class="section hero">
+			<div class="container">
 				<div class="hero-text">
 					<span class="hero-date">16 сентября 2021</span>
 					<img class="hero-logo" src="./svg/venom.svg" alt="Logo: venom-2" />
@@ -56,20 +56,28 @@
 							<svg class="icon">
 								<use href="./svg/sprite.svg#play"></use>
 							</svg>
-							смотреть трейлер
+							<span class="text">смотреть трейлер</span>
 						</button>
 						<button class="btn btn-outline hero-buttons-btn">
 							<svg class="icon">
 								<use href="./svg/sprite.svg#ticket"></use>
 							</svg>
-							билеты на премьеру
+							<span class="text">билеты на премьеру</span>
 						</button>
 					</div>
 				</div>
 				<!-- /.hero-text -->
-			</section>
-			<!-- /.section hero -->
-		</div>
-		<!-- /.container -->
+			</div>
+			<!-- /.container -->
+			<div class="hero-img hero-img-blood">
+				<img src="./img/blood.png" alt="img: blood" />
+			</div>
+			<!-- /.hero-img hero-img-blood -->
+			<div class="hero-img hero-img-venom">
+				<img src="./img/venom.png" alt="img: venom" />
+			</div>
+			<!-- /.hero-img hero-img-venom -->
+		</section>
+		<!-- /.section hero -->
 	</body>
 </html>
